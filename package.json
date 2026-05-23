@@ -1,14 +1,9 @@
 {
-  "name": "car-flat-pharm-backend",
+  "name": "car-flat-pharm-dashboard",
   "version": "1.0.0",
-  "description": "Express REST API and Dashboard for Car Flat Pharm project",
-  "main": "server.js",
+  "description": "Static Dashboard for Car Flat Pharm project",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "npx local-server public"
   },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.2"
-  }
+  "dependencies": {}
 }

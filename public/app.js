@@ -1,5 +1,78 @@
-// REST API Base URL (Express server)
-const API_BASE = '/api';
+const firebaseConfig = {
+  apiKey: "AIzaSyDPh6Dt7UKk2SJWKrpNF_SxZ-eicGtPNEE",
+  authDomain: "car-flat-pharm.firebaseapp.com",
+  projectId: "car-flat-pharm",
+  storageBucket: "car-flat-pharm.firebasestorage.app",
+  messagingSenderId: "599204546085",
+  appId: "1:599204546085:web:94b8c9fd74ab20134b61cc",
+  measurementId: "G-0FGTE9PLK7"
+};
+
+const firestoreBaseUrl = `https://firestore.googleapis.com/v1/projects/${encodeURIComponent(firebaseConfig.projectId)}/databases/(default)/documents`;
+const apiKey = firebaseConfig.apiKey;
+
+// Firestore JSON encoder/decoder helper functions
+function encodeValue(value) {
+  if (value === null || value === undefined) return { nullValue: null };
+  if (typeof value === "boolean") return { booleanValue: value };
+  if (Number.isInteger(value)) return { integerValue: String(value) };
+  if (typeof value === "number") return { doubleValue: value };
+  if (Array.isArray(value)) {
+    return { arrayValue: { values: value.map((item) => encodeValue(item)) } };
+  }
+  if (typeof value === "object") {
+    return {
+      mapValue: {
+        fields: Object.fromEntries(
+          Object.entries(value).map(([key, item]) => [key, encodeValue(item)])
+        ),
+      },
+    };
+  }
+  return { stringValue: String(value) };
+}
+
+function decodeValue(value) {
+  if (!value || typeof value !== "object") return null;
+  if (Object.prototype.hasOwnProperty.call(value, "nullValue")) return null;
+  if (Object.prototype.hasOwnProperty.call(value, "booleanValue")) return value.booleanValue;
+  if (Object.prototype.hasOwnProperty.call(value, "integerValue")) return Number(value.integerValue);
+  if (Object.prototype.hasOwnProperty.call(value, "doubleValue")) return Number(value.doubleValue);
+  if (Object.prototype.hasOwnProperty.call(value, "timestampValue")) return value.timestampValue;
+  if (Object.prototype.hasOwnProperty.call(value, "stringValue")) return value.stringValue;
+  if (Object.prototype.hasOwnProperty.call(value, "arrayValue")) {
+    return (value.arrayValue.values || []).map((item) => decodeValue(item));
+  }
+  if (Object.prototype.hasOwnProperty.call(value, "mapValue")) {
+    return Object.fromEntries(
+      Object.entries(value.mapValue.fields || {}).map(([key, item]) => [key, decodeValue(item)])
+    );
+  }
+  return null;
+}
+
+function encodeDocument(data) {
+  return {
+    fields: Object.fromEntries(
+      Object.entries(data || {}).map(([key, value]) => [key, encodeValue(value)])
+    ),
+  };
+}
+
+function getDocumentId(name = "") {
+  return String(name).split("/").pop();
+}
+
+function decodeDocument(document) {
+  if (!document) return null;
+  const data = Object.fromEntries(
+    Object.entries(document.fields || {}).map(([key, value]) => [key, decodeValue(value)])
+  );
+  return {
+    ...data,
+    _firestore_id: getDocumentId(document.name),
+  };
+}
 
 // Metadata and schema configurations for each collection
 const collectionsConfig = {
@@ -123,6 +196,29 @@ const collectionsConfig = {
       { name: 'is_featured', label: 'Is Featured?', type: 'boolean' },
       { name: 'status', label: 'Status (1 = Active, 0 = Inactive)', type: 'number', defaultValue: 1 }
     ]
+  },
+  product_ratings_v2: {
+    title: 'Product Ratings',
+    desc: 'View and manage product ratings submitted for cars, real estate listings, and pharmacy items.',
+    idField: 'rating_id',
+    displayFields: [
+      { name: 'rating_id', label: 'Rating ID', type: 'text', readOnly: true },
+      { name: 'product_key', label: 'Product Key', type: 'text' },
+      { name: 'rater_id', label: 'Rater User Key', type: 'text' },
+      { name: 'rater_name', label: 'Rater Name', type: 'text' },
+      { name: 'rating', label: 'Rating (1–5)', type: 'number' },
+      { name: 'comment', label: 'Comment', type: 'text' },
+      { name: 'created_at', label: 'Date', type: 'text' }
+    ],
+    formFields: [
+      { name: 'rating_id', label: 'Rating ID (auto-generated if empty)', type: 'text' },
+      { name: 'product_key', label: 'Product Key', type: 'text', required: true },
+      { name: 'rater_id', label: 'Rater User Key', type: 'text', required: true },
+      { name: 'rater_name', label: 'Rater Name', type: 'text' },
+      { name: 'rating', label: 'Rating (1–5)', type: 'number', required: true },
+      { name: 'comment', label: 'Comment', type: 'textarea' },
+      { name: 'date', label: 'Date (ISO string, auto-filled if empty)', type: 'text' }
+    ]
   }
 };
 
@@ -198,18 +294,30 @@ async function loadCollection(collectionName) {
   searchInput.value = '';
   
   try {
-    const response = await fetch(`${API_BASE}/${collectionName}`);
-    if (!response.ok) {
-      throw new Error(`HTTP error ${response.status}`);
-    }
-    const res = await response.json();
-    if (res.success) {
-      currentData = res.data || [];
-      filterAndRenderTable();
-      setConnectionStatus(true);
-    } else {
-      throw new Error(res.error || 'Unknown error fetching data');
-    }
+    const documents = [];
+    let pageToken = "";
+
+    do {
+      const tokenPart = pageToken ? `&pageToken=${encodeURIComponent(pageToken)}` : "";
+      const url = `${firestoreBaseUrl}/${encodeURIComponent(collectionName)}?key=${encodeURIComponent(apiKey)}&pageSize=1000${tokenPart}`;
+      const response = await fetch(url);
+
+      if (!response.ok) {
+        if (response.status === 404) {
+          break;
+        }
+        const errText = await response.text();
+        throw new Error(`Firestore error: ${response.status} - ${errText}`);
+      }
+
+      const payload = await response.json();
+      documents.push(...((payload.documents || []).map(decodeDocument).filter(Boolean)));
+      pageToken = payload.nextPageToken || "";
+    } while (pageToken);
+
+    currentData = documents;
+    filterAndRenderTable();
+    setConnectionStatus(true);
   } catch (error) {
     console.error('Fetch error:', error);
     showToast(`Failed to load data: ${error.message}`, 'danger');
@@ -385,39 +493,44 @@ async function handleFormSubmit(e) {
   if (!editTargetId && payload[config.idField]) {
     payload[config.idField] = String(payload[config.idField]).trim();
   }
+
+  const idField = config.idField || 'id';
+  if (!editTargetId && !payload[idField]) {
+    const idPrefixes = {
+      'product_ratings_v2': 'rating',
+      'pharmacy_products_metadata': 'prod',
+      'pharmacy_custom_categories': 'cat',
+      'real_estate_listings': 're',
+      'vehicle_listings': 'car'
+    };
+    const prefix = idPrefixes[currentCollection] || 'doc';
+    payload[idField] = `${prefix}_${Date.now()}_${Math.random().toString(36).substring(2, 9)}`;
+  }
+
+  const docId = editTargetId || String(payload[idField]);
   
   showLoading(true);
   closeFormModal();
   
   try {
-    let response;
-    if (editTargetId) {
-      // Edit request (PUT)
-      response = await fetch(`${API_BASE}/${currentCollection}/${encodeURIComponent(editTargetId)}`, {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-    } else {
-      // Create request (POST)
-      response = await fetch(`${API_BASE}/${currentCollection}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-    }
+    const url = `${firestoreBaseUrl}/${encodeURIComponent(currentCollection)}/${encodeURIComponent(docId)}?key=${encodeURIComponent(apiKey)}`;
+    const firestoreDoc = encodeDocument(payload);
+    
+    const response = await fetch(url, {
+      method: "PATCH", // acts as upsert (create or update)
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(firestoreDoc)
+    });
     
     if (!response.ok) {
-      throw new Error(`HTTP error ${response.status}`);
+      const errText = await response.text();
+      throw new Error(`Firestore error: ${response.status} - ${errText}`);
     }
     
-    const res = await response.json();
-    if (res.success) {
-      showToast(editTargetId ? 'Record updated successfully!' : 'Record created successfully!', 'success');
-      loadCollection(currentCollection);
-    } else {
-      throw new Error(res.error || 'Failed to save record.');
-    }
+    showToast(editTargetId ? 'Record updated successfully!' : 'Record created successfully!', 'success');
+    loadCollection(currentCollection);
   } catch (error) {
     console.error('Save error:', error);
     showToast(`Error: ${error.message}`, 'danger');
@@ -435,21 +548,18 @@ window.deleteRecord = async function(id) {
   
   showLoading(true);
   try {
-    const response = await fetch(`${API_BASE}/${currentCollection}/${encodeURIComponent(id)}`, {
+    const url = `${firestoreBaseUrl}/${encodeURIComponent(currentCollection)}/${encodeURIComponent(id)}?key=${encodeURIComponent(apiKey)}`;
+    const response = await fetch(url, {
       method: 'DELETE'
     });
     
     if (!response.ok) {
-      throw new Error(`HTTP error ${response.status}`);
+      const errText = await response.text();
+      throw new Error(`Firestore error: ${response.status} - ${errText}`);
     }
     
-    const res = await response.json();
-    if (res.success) {
-      showToast('Record deleted successfully!', 'success');
-      loadCollection(currentCollection);
-    } else {
-      throw new Error(res.error || 'Failed to delete record.');
-    }
+    showToast('Record deleted successfully!', 'success');
+    loadCollection(currentCollection);
   } catch (error) {
     console.error('Delete error:', error);
     showToast(`Error: ${error.message}`, 'danger');
