@@ -10,7 +10,8 @@
     "indexes:deploy:cli": "npx firebase-tools deploy --only firestore:indexes --project car-flat-pharm",
     "rules:deploy": "npx firebase-tools deploy --only firestore:rules --project car-flat-pharm",
     "firestore:deploy": "npx firebase-tools deploy --only firestore --project car-flat-pharm",
-    "firebase:login": "npx firebase-tools login"
+    "firebase:login": "npx firebase-tools login",
+    "firebase:logout": "npx firebase-tools logout"
   },
   "dependencies": {
     "firebase": "^12.13.0"

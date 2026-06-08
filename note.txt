@@ -1,5 +1,14 @@
 gaberhassanhesham@gmail.com
 
 git@github.com:gaberhassanhesham-tech/car_flat_pharm.git او https://github.com/gaberhassanhesham-tech/car_flat_pharm.git 
-Deploy key  = {Title=car_flat_pharmacy و Key=hgh102hgh102}
+
+Firebase Account: gaberhassanhesham@gmail.com
+Firebase Project: car-flat-pharm
+
+Firebase Commands:
+- npm run firebase:login    # Login with gaberhassanhesham@gmail.com
+- npm run firebase:logout   # Logout from current account
+- npm run indexes:deploy     # Deploy Firestore indexes
+- npm run indexes:list       # List current indexes
+- npm run db:backup          # Backup database to local_db/
 
