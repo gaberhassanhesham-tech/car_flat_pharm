@@ -1,0 +1,580 @@
+[
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_products_metadata/PHARM_PROD_1776537355946",
+    "fields": {
+      "custom_sub_cat_id": {
+        "stringValue": "CUST_1776532534146"
+      },
+      "barcode": {
+        "nullValue": null
+      },
+      "strength_ref": {
+        "nullValue": null
+      },
+      "name_ar": {
+        "stringValue": "اسم المنتج (عربي)"
+      },
+      "description": {
+        "stringValue": "اكتب الللللللللتفاصيل الطبية والوصف هنا..."
+      },
+      "form_ref": {
+        "nullValue": null
+      },
+      "original_catalog_id": {
+        "nullValue": null
+      },
+      "brand_en": {
+        "stringValue": "بانودل"
+      },
+      "price": {
+        "integerValue": "1"
+      },
+      "stock_quantity": {
+        "integerValue": "100"
+      },
+      "name_en": {
+        "stringValue": "اسم المنتج (عربي) اسم المنتج (إنجليزي)"
+      },
+      "custom_main_cat_id": {
+        "stringValue": "CUST_1776532508811"
+      },
+      "added_at": {
+        "nullValue": null
+      },
+      "user_key": {
+        "stringValue": "for2dd"
+      },
+      "brand_ar": {
+        "stringValue": "بانودل"
+      },
+      "manufacturer": {
+        "stringValue": "ل"
+      },
+      "active_ingredients": {
+        "nullValue": null
+      },
+      "status": {
+        "integerValue": "1"
+      },
+      "image_names": {
+        "stringValue": "pharmacy_prod_for2dd_1776537355488_5sukx.webp"
+      },
+      "discount": {
+        "integerValue": "2"
+      },
+      "is_prescription_required": {
+        "integerValue": "1"
+      },
+      "product_id": {
+        "stringValue": "PHARM_PROD_1776537355946"
+      }
+    },
+    "createTime": "2026-05-21T19:08:54.386373Z",
+    "updateTime": "2026-05-21T19:08:54.386373Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_products_metadata/PHARM_PROD_1776538321383",
+    "fields": {
+      "custom_sub_cat_id": {
+        "stringValue": "CUST_1776532534146"
+      },
+      "barcode": {
+        "stringValue": "5"
+      },
+      "strength_ref": {
+        "stringValue": "[\"str_3\"]"
+      },
+      "description": {
+        "stringValue": "اكتب التفاصيل10الطبية والوصف هنا..."
+      },
+      "name_ar": {
+        "stringValue": "1"
+      },
+      "original_catalog_id": {
+        "nullValue": null
+      },
+      "form_ref": {
+        "stringValue": "[\"form_2\"]"
+      },
+      "price": {
+        "integerValue": "3"
+      },
+      "brand_en": {
+        "stringValue": "7"
+      },
+      "added_at": {
+        "nullValue": null
+      },
+      "custom_main_cat_id": {
+        "stringValue": "CUST_1776532508811"
+      },
+      "name_en": {
+        "stringValue": "2"
+      },
+      "stock_quantity": {
+        "integerValue": "100"
+      },
+      "manufacturer": {
+        "stringValue": "8"
+      },
+      "active_ingredients": {
+        "stringValue": "[{\"name_ar\":\"9\",\"name_en\":\"9\"}]"
+      },
+      "brand_ar": {
+        "stringValue": "6"
+      },
+      "user_key": {
+        "stringValue": "for2dd"
+      },
+      "product_id": {
+        "stringValue": "PHARM_PROD_1776538321383"
+      },
+      "is_prescription_required": {
+        "integerValue": "1"
+      },
+      "discount": {
+        "integerValue": "4"
+      },
+      "image_names": {
+        "stringValue": "pharmacy_prod_for2dd_1776538319873_ar2ncd.webp"
+      },
+      "status": {
+        "integerValue": "1"
+      }
+    },
+    "createTime": "2026-05-21T19:08:54.475912Z",
+    "updateTime": "2026-05-21T19:08:54.475912Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_products_metadata/PHARM_PROD_1776540485831",
+    "fields": {
+      "product_id": {
+        "stringValue": "PHARM_PROD_1776540485831"
+      },
+      "is_prescription_required": {
+        "integerValue": "1"
+      },
+      "discount": {
+        "integerValue": "4"
+      },
+      "image_names": {
+        "stringValue": "pharmacy_prod_for2dd_1776540485211_sfdtlc.webp"
+      },
+      "status": {
+        "integerValue": "1"
+      },
+      "manufacturer": {
+        "stringValue": "9"
+      },
+      "active_ingredients": {
+        "stringValue": "[{\"name_ar\":\"10\",\"name_en\":\"10\"}]"
+      },
+      "user_key": {
+        "stringValue": "for2dd"
+      },
+      "brand_ar": {
+        "stringValue": "7"
+      },
+      "added_at": {
+        "nullValue": null
+      },
+      "custom_main_cat_id": {
+        "stringValue": "CUST_1776532508811"
+      },
+      "name_en": {
+        "stringValue": "2"
+      },
+      "stock_quantity": {
+        "integerValue": "5"
+      },
+      "price": {
+        "integerValue": "3"
+      },
+      "brand_en": {
+        "stringValue": "8"
+      },
+      "form_ref": {
+        "stringValue": "[\"form_13\"]"
+      },
+      "original_catalog_id": {
+        "nullValue": null
+      },
+      "description": {
+        "stringValue": "اكتب التف11اصيل الطبية والوصف هنا..."
+      },
+      "name_ar": {
+        "stringValue": "1"
+      },
+      "strength_ref": {
+        "stringValue": "[\"str_17\"]"
+      },
+      "custom_sub_cat_id": {
+        "stringValue": "CUST_1776532534146"
+      },
+      "barcode": {
+        "stringValue": "6"
+      }
+    },
+    "createTime": "2026-05-21T19:08:54.591115Z",
+    "updateTime": "2026-05-21T19:08:54.591115Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_products_metadata/PHARM_PROD_1776922384721",
+    "fields": {
+      "strength_ref": {
+        "nullValue": null
+      },
+      "custom_sub_cat_id": {
+        "stringValue": "CUST_1776532534146"
+      },
+      "barcode": {
+        "nullValue": null
+      },
+      "form_ref": {
+        "nullValue": null
+      },
+      "original_catalog_id": {
+        "nullValue": null
+      },
+      "name_ar": {
+        "stringValue": "باراسيتامول 3"
+      },
+      "description": {
+        "stringValue": "اكتب التفاصيل الطبية والوصف هنا..."
+      },
+      "name_en": {
+        "stringValue": "Paracetamol 3"
+      },
+      "stock_quantity": {
+        "integerValue": "100"
+      },
+      "custom_main_cat_id": {
+        "stringValue": "CUST_1776532508811"
+      },
+      "added_at": {
+        "nullValue": null
+      },
+      "brand_en": {
+        "nullValue": null
+      },
+      "price": {
+        "integerValue": "0"
+      },
+      "image_names": {
+        "stringValue": "pharmacy_prod_for2dd_1776922384014_p4abqd.webp"
+      },
+      "status": {
+        "integerValue": "1"
+      },
+      "discount": {
+        "integerValue": "0"
+      },
+      "is_prescription_required": {
+        "integerValue": "1"
+      },
+      "product_id": {
+        "stringValue": "PHARM_PROD_1776922384721"
+      },
+      "user_key": {
+        "stringValue": "for2dd"
+      },
+      "brand_ar": {
+        "nullValue": null
+      },
+      "manufacturer": {
+        "nullValue": null
+      },
+      "active_ingredients": {
+        "nullValue": null
+      }
+    },
+    "createTime": "2026-05-21T19:08:54.668795Z",
+    "updateTime": "2026-05-21T19:08:54.668795Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_products_metadata/PHARM_PROD_1777966711514",
+    "fields": {
+      "image_names": {
+        "stringValue": "images/products/101023.webp"
+      },
+      "status": {
+        "integerValue": "1"
+      },
+      "discount": {
+        "integerValue": "0"
+      },
+      "is_prescription_required": {
+        "integerValue": "0"
+      },
+      "product_id": {
+        "stringValue": "PHARM_PROD_1777966711514"
+      },
+      "user_key": {
+        "stringValue": "for2dd"
+      },
+      "brand_ar": {
+        "stringValue": "كودال"
+      },
+      "manufacturer": {
+        "nullValue": null
+      },
+      "active_ingredients": {
+        "stringValue": "[{\"name_ar\":\"كوديين\",\"name_en\":\"كوديين\"}]"
+      },
+      "stock_quantity": {
+        "integerValue": "100"
+      },
+      "name_en": {
+        "stringValue": "Codeine"
+      },
+      "custom_main_cat_id": {
+        "stringValue": "1"
+      },
+      "added_at": {
+        "nullValue": null
+      },
+      "brand_en": {
+        "stringValue": "Codal"
+      },
+      "price": {
+        "integerValue": "0"
+      },
+      "form_ref": {
+        "stringValue": "[\"form_1\",\"form_2\"]"
+      },
+      "original_catalog_id": {
+        "stringValue": "101023"
+      },
+      "name_ar": {
+        "stringValue": "كوديين"
+      },
+      "description": {
+        "nullValue": null
+      },
+      "strength_ref": {
+        "stringValue": "[\"str_11\",\"str_16\",\"str_18\"]"
+      },
+      "custom_sub_cat_id": {
+        "stringValue": "101"
+      },
+      "barcode": {
+        "nullValue": null
+      }
+    },
+    "createTime": "2026-05-21T19:08:54.748430Z",
+    "updateTime": "2026-05-21T19:08:54.748430Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_products_metadata/PHARM_PROD_1779427970571",
+    "fields": {
+      "active_ingredients": {
+        "stringValue": "[{\"name_ar\":\"المادة الفعالة\",\"name_en\":\"المادة الفعالة\"}]"
+      },
+      "manufacturer": {
+        "stringValue": "الشركة المصنعة"
+      },
+      "brand_ar": {
+        "stringValue": "العلامة التجارية (عربي)"
+      },
+      "user_key": {
+        "stringValue": "682dri6b"
+      },
+      "is_prescription_required": {
+        "integerValue": "0"
+      },
+      "product_id": {
+        "stringValue": "PHARM_PROD_1779427970571"
+      },
+      "image_names": {
+        "stringValue": "pharmacy_prod_682dri6b_1779427970455_u60xk.webp"
+      },
+      "status": {
+        "integerValue": "1"
+      },
+      "discount": {
+        "integerValue": "0"
+      },
+      "price": {
+        "integerValue": "0"
+      },
+      "brand_en": {
+        "stringValue": "العلامة التجارية (إنجليزي)"
+      },
+      "custom_main_cat_id": {
+        "stringValue": "1"
+      },
+      "stock_quantity": {
+        "integerValue": "100"
+      },
+      "name_en": {
+        "stringValue": "اسم المنتج (إنجليزي)"
+      },
+      "description": {
+        "stringValue": "وصف المنتج (الاستخدام والجرعة)\nوصف المنتج (الاستخدام والجرعة)\nوصف المنتج (الاستخدام والجرعة)"
+      },
+      "name_ar": {
+        "stringValue": "اسم المنتج (عربي)"
+      },
+      "form_ref": {
+        "stringValue": "[\"form_1\"]"
+      },
+      "original_catalog_id": {
+        "nullValue": null
+      },
+      "custom_sub_cat_id": {
+        "stringValue": "101"
+      },
+      "barcode": {
+        "nullValue": null
+      },
+      "_firestore_id": {
+        "stringValue": "PHARM_PROD_1779427970571"
+      },
+      "strength_ref": {
+        "stringValue": "[\"str_1\"]"
+      }
+    },
+    "createTime": "2026-05-22T05:32:50.673087Z",
+    "updateTime": "2026-05-30T03:36:02.884303Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_products_metadata/PHARM_PROD_1779430828120",
+    "fields": {
+      "form_ref": {
+        "stringValue": "[\"form_8\"]"
+      },
+      "original_catalog_id": {
+        "nullValue": null
+      },
+      "description": {
+        "stringValue": "اكتب التفاصيل الطبية والوصف هنا..."
+      },
+      "name_ar": {
+        "stringValue": "يسلسيل"
+      },
+      "strength_ref": {
+        "stringValue": "[\"str_7\"]"
+      },
+      "custom_sub_cat_id": {
+        "stringValue": "104"
+      },
+      "barcode": {
+        "nullValue": null
+      },
+      "is_prescription_required": {
+        "integerValue": "0"
+      },
+      "product_id": {
+        "stringValue": "PHARM_PROD_1779430828120"
+      },
+      "status": {
+        "integerValue": "1"
+      },
+      "image_names": {
+        "stringValue": "pharmacy_prod_682dri6b_1779430828032_w8go8l.webp"
+      },
+      "discount": {
+        "integerValue": "0"
+      },
+      "manufacturer": {
+        "nullValue": null
+      },
+      "active_ingredients": {
+        "nullValue": null
+      },
+      "user_key": {
+        "stringValue": "682dri6b"
+      },
+      "brand_ar": {
+        "nullValue": null
+      },
+      "custom_main_cat_id": {
+        "stringValue": "1"
+      },
+      "stock_quantity": {
+        "integerValue": "100"
+      },
+      "name_en": {
+        "stringValue": "يليلسيل"
+      },
+      "price": {
+        "integerValue": "0"
+      },
+      "brand_en": {
+        "nullValue": null
+      }
+    },
+    "createTime": "2026-05-22T06:20:28.235861Z",
+    "updateTime": "2026-05-22T06:20:28.235861Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_products_metadata/PHARM_PROD_1780023702038",
+    "fields": {
+      "brand_en": {
+        "stringValue": "العلامة التجارية (إنجليزي)"
+      },
+      "price": {
+        "integerValue": "99"
+      },
+      "stock_quantity": {
+        "integerValue": "100"
+      },
+      "name_en": {
+        "stringValue": "اسم المنتج (إنجليزي)1"
+      },
+      "custom_main_cat_id": {
+        "stringValue": "CUST_1780023456104"
+      },
+      "user_key": {
+        "stringValue": "682dri6b"
+      },
+      "brand_ar": {
+        "stringValue": "العلامة التجارية (عربي)"
+      },
+      "active_ingredients": {
+        "stringValue": "[{\"name_ar\":\"المادة الفعالة\",\"name_en\":\"المادة الفعالة\"}]"
+      },
+      "manufacturer": {
+        "stringValue": "الشركة المصنعة"
+      },
+      "image_names": {
+        "stringValue": "pharmacy_prod_682dri6b_1780023701154_w127h9.webp"
+      },
+      "status": {
+        "integerValue": "1"
+      },
+      "discount": {
+        "integerValue": "10"
+      },
+      "is_prescription_required": {
+        "integerValue": "0"
+      },
+      "product_id": {
+        "stringValue": "PHARM_PROD_1780023702038"
+      },
+      "barcode": {
+        "stringValue": "الباركود (نصي فارغ للاسكانر)"
+      },
+      "custom_sub_cat_id": {
+        "stringValue": "CUST_1780023484025"
+      },
+      "strength_ref": {
+        "stringValue": "[\"str_6\"]"
+      },
+      "name_ar": {
+        "stringValue": "اسم المنتج (عربي)1"
+      },
+      "description": {
+        "stringValue": "اكتب التفاصيل الطبية والوصف هنا"
+      },
+      "form_ref": {
+        "stringValue": "[\"form_5\",\"form_21\"]"
+      },
+      "original_catalog_id": {
+        "nullValue": null
+      }
+    },
+    "createTime": "2026-05-29T03:01:43.097084Z",
+    "updateTime": "2026-05-29T03:01:43.097084Z"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_merchant_preferences/for2dd",
+    "fields": {
+      "updated_at": {
+        "stringValue": "2026-04-18 04:05:34"
+      },
+      "user_key": {
+        "stringValue": "for2dd"
+      },
+      "hidden_main_categories": {
+        "stringValue": "[]"
+      },
+      "hidden_catalog_products": {
+        "stringValue": "[\"101023\"]"
+      },
+      "hidden_sub_categories": {
+        "stringValue": "[]"
+      }
+    },
+    "createTime": "2026-05-21T19:08:54.151677Z",
+    "updateTime": "2026-05-21T19:08:54.151677Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_merchant_preferences/q62uuv",
+    "fields": {
+      "hidden_catalog_products": {
+        "stringValue": "[]"
+      },
+      "updated_at": {
+        "stringValue": "2026-05-02 15:47:17"
+      },
+      "user_key": {
+        "stringValue": "q62uuv"
+      },
+      "hidden_main_categories": {
+        "stringValue": "[1]"
+      },
+      "hidden_sub_categories": {
+        "stringValue": "[]"
+      }
+    },
+    "createTime": "2026-05-21T19:08:54.262661Z",
+    "updateTime": "2026-05-21T19:08:54.262661Z"
+  }
+]

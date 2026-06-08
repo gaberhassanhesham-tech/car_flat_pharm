@@ -1,0 +1,33 @@
+{
+  "project_id": "car-flat-pharm",
+  "backup_time": "2026-06-08T07:16:24.846Z",
+  "collections": {
+    "pharmacy_products_metadata": {
+      "count": 8,
+      "elapsed_sec": 0.8
+    },
+    "pharmacy_custom_categories": {
+      "count": 7,
+      "elapsed_sec": 0.2
+    },
+    "pharmacy_merchant_preferences": {
+      "count": 2,
+      "elapsed_sec": 0.2
+    },
+    "real_estate_listings": {
+      "count": 1,
+      "elapsed_sec": 0.1
+    },
+    "vehicle_listings": {
+      "count": 3,
+      "elapsed_sec": 0.1
+    },
+    "product_ratings_v2": {
+      "count": 0,
+      "elapsed_sec": 0.2
+    }
+  },
+  "total_docs": 21,
+  "errors": [],
+  "total_elapsed_sec": 2.8
+}

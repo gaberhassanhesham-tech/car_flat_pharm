@@ -1,0 +1,27 @@
+[
+  {
+    "_docId": "32d7zo",
+    "sub_category_id": "1",
+    "image_names": "1779507745271_1_32d7zo.webp",
+    "rooms": 4,
+    "finishing_type": "super_lux",
+    "location_lng": 32.521591186523445,
+    "is_featured": 1,
+    "notes": "الملاحظاتيابيايبا بابيايب",
+    "id": 1,
+    "updated_at": "2026-05-23T03:42:25.519Z",
+    "floor_level": 1,
+    "address": "العنوا بابااي ابيبا",
+    "offer_type": "sale",
+    "price": 5000,
+    "property_type": "apartment",
+    "location_lat": 29.973273749883127,
+    "bathrooms": 2,
+    "status": 1,
+    "real_estate_key": "32d7zo",
+    "user_key": "682dri6b",
+    "_firestore_id": "32d7zo",
+    "created_at": "2026-05-14T05:44:47.646Z",
+    "area_sqm": 120
+  }
+]

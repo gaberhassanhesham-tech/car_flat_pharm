@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "description": "Static Dashboard for Car Flat Pharm project",
   "scripts": {
-    "start": "npx local-server public"
+    "start": "npx local-server public",
+    "db:backup": "node backup.js",
+    "indexes:deploy": "node deploy-indexes.js",
+    "indexes:list": "node deploy-indexes.js --list",
+    "indexes:deploy:cli": "npx firebase-tools deploy --only firestore:indexes --project car-flat-pharm",
+    "rules:deploy": "npx firebase-tools deploy --only firestore:rules --project car-flat-pharm",
+    "firestore:deploy": "npx firebase-tools deploy --only firestore --project car-flat-pharm",
+    "firebase:login": "npx firebase-tools login"
   },
-  "dependencies": {}
+  "dependencies": {
+    "firebase": "^12.13.0"
+  }
 }

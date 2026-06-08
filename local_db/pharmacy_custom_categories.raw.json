@@ -1,0 +1,216 @@
+[
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_custom_categories/CUST_1776532508811",
+    "fields": {
+      "level": {
+        "stringValue": "MAIN"
+      },
+      "created_at": {
+        "stringValue": "2026-04-18 17:15:34"
+      },
+      "user_key": {
+        "stringValue": "for2dd"
+      },
+      "title_en": {
+        "stringValue": "main 1"
+      },
+      "parent_id": {
+        "nullValue": null
+      },
+      "image_names": {
+        "nullValue": null
+      },
+      "id": {
+        "stringValue": "CUST_1776532508811"
+      },
+      "title_ar": {
+        "stringValue": "رئيسي 1"
+      }
+    },
+    "createTime": "2026-05-21T19:08:53.399421Z",
+    "updateTime": "2026-05-21T19:08:53.399421Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_custom_categories/CUST_1776532534146",
+    "fields": {
+      "title_en": {
+        "stringValue": "pransh 1"
+      },
+      "parent_id": {
+        "stringValue": "CUST_1776532508811"
+      },
+      "image_names": {
+        "nullValue": null
+      },
+      "id": {
+        "stringValue": "CUST_1776532534146"
+      },
+      "title_ar": {
+        "stringValue": "فرعي 1"
+      },
+      "level": {
+        "stringValue": "SUB"
+      },
+      "created_at": {
+        "stringValue": "2026-04-18 17:15:34"
+      },
+      "user_key": {
+        "stringValue": "for2dd"
+      }
+    },
+    "createTime": "2026-05-21T19:08:53.756517Z",
+    "updateTime": "2026-05-21T19:08:53.756517Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_custom_categories/CUST_1776922470547",
+    "fields": {
+      "user_key": {
+        "stringValue": "for2dd"
+      },
+      "created_at": {
+        "stringValue": "2026-04-23 05:34:56"
+      },
+      "level": {
+        "stringValue": "MAIN"
+      },
+      "title_ar": {
+        "stringValue": "رئيسي 2"
+      },
+      "title_en": {
+        "stringValue": "main 2"
+      },
+      "parent_id": {
+        "nullValue": null
+      },
+      "image_names": {
+        "nullValue": null
+      },
+      "id": {
+        "stringValue": "CUST_1776922470547"
+      }
+    },
+    "createTime": "2026-05-21T19:08:53.861944Z",
+    "updateTime": "2026-05-21T19:08:53.861944Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_custom_categories/CUST_1776922495803",
+    "fields": {
+      "title_ar": {
+        "stringValue": "فرعي 2"
+      },
+      "id": {
+        "stringValue": "CUST_1776922495803"
+      },
+      "image_names": {
+        "nullValue": null
+      },
+      "parent_id": {
+        "stringValue": "CUST_1776922470547"
+      },
+      "title_en": {
+        "stringValue": "pramch 2"
+      },
+      "user_key": {
+        "stringValue": "for2dd"
+      },
+      "created_at": {
+        "stringValue": "2026-04-23 05:34:56"
+      },
+      "level": {
+        "stringValue": "SUB"
+      }
+    },
+    "createTime": "2026-05-21T19:08:53.980646Z",
+    "updateTime": "2026-05-21T19:08:53.980646Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_custom_categories/CUST_1780023456104",
+    "fields": {
+      "level": {
+        "stringValue": "MAIN"
+      },
+      "updated_at": {
+        "stringValue": "2026-05-29T02:58:04.033Z"
+      },
+      "user_key": {
+        "stringValue": "682dri6b"
+      },
+      "parent_id": {
+        "nullValue": null
+      },
+      "title_en": {
+        "stringValue": "رئيسي 1"
+      },
+      "created_at": {
+        "stringValue": "2026-05-29T02:58:04.033Z"
+      },
+      "id": {
+        "stringValue": "CUST_1780023456104"
+      },
+      "image_names": {
+        "nullValue": null
+      },
+      "title_ar": {
+        "stringValue": "رئيسي 1"
+      }
+    },
+    "createTime": "2026-05-29T02:58:05.053999Z",
+    "updateTime": "2026-05-29T02:58:05.053999Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_custom_categories/CUST_1780023484025",
+    "fields": {
+      "level": {
+        "stringValue": "SUB"
+      },
+      "updated_at": {
+        "stringValue": "2026-05-29T02:58:04.424Z"
+      },
+      "user_key": {
+        "stringValue": "682dri6b"
+      },
+      "parent_id": {
+        "stringValue": "CUST_1780023456104"
+      },
+      "title_en": {
+        "stringValue": "فرعي 1"
+      },
+      "created_at": {
+        "stringValue": "2026-05-29T02:58:04.424Z"
+      },
+      "id": {
+        "stringValue": "CUST_1780023484025"
+      },
+      "image_names": {
+        "nullValue": null
+      },
+      "title_ar": {
+        "stringValue": "فرعي 1"
+      }
+    },
+    "createTime": "2026-05-29T02:58:05.323964Z",
+    "updateTime": "2026-05-29T02:58:05.323964Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/pharmacy_custom_categories/CUST_TEST_12345",
+    "fields": {
+      "title_en": {
+        "stringValue": "Test Category"
+      },
+      "id": {
+        "stringValue": "CUST_TEST_12345"
+      },
+      "title_ar": {
+        "stringValue": "??? ??????"
+      },
+      "level": {
+        "stringValue": "MAIN"
+      },
+      "user_key": {
+        "stringValue": "for2dd"
+      }
+    },
+    "createTime": "2026-05-21T19:10:18.263913Z",
+    "updateTime": "2026-05-21T19:10:18.263913Z"
+  }
+]

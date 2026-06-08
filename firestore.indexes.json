@@ -1,0 +1,60 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "pharmacy_products_metadata",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "user_key", "order": "ASCENDING" },
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "__name__", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "pharmacy_custom_categories",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "user_key", "order": "ASCENDING" },
+        { "fieldPath": "level", "order": "ASCENDING" },
+        { "fieldPath": "__name__", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "pharmacy_merchant_preferences",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "user_key", "order": "ASCENDING" },
+        { "fieldPath": "__name__", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "real_estate_listings",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "user_key", "order": "ASCENDING" },
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "is_featured", "order": "DESCENDING" },
+        { "fieldPath": "__name__", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "vehicle_listings",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "user_key", "order": "ASCENDING" },
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "is_featured", "order": "DESCENDING" },
+        { "fieldPath": "__name__", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "product_ratings_v2",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "product_key", "order": "ASCENDING" },
+        { "fieldPath": "created_at", "order": "DESCENDING" },
+        { "fieldPath": "__name__", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

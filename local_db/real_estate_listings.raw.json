@@ -1,0 +1,75 @@
+[
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/real_estate_listings/32d7zo",
+    "fields": {
+      "sub_category_id": {
+        "stringValue": "1"
+      },
+      "image_names": {
+        "stringValue": "1779507745271_1_32d7zo.webp"
+      },
+      "rooms": {
+        "integerValue": "4"
+      },
+      "finishing_type": {
+        "stringValue": "super_lux"
+      },
+      "location_lng": {
+        "doubleValue": 32.521591186523445
+      },
+      "is_featured": {
+        "integerValue": "1"
+      },
+      "notes": {
+        "stringValue": "الملاحظاتيابيايبا بابيايب"
+      },
+      "id": {
+        "integerValue": "1"
+      },
+      "updated_at": {
+        "stringValue": "2026-05-23T03:42:25.519Z"
+      },
+      "floor_level": {
+        "integerValue": "1"
+      },
+      "address": {
+        "stringValue": "العنوا بابااي ابيبا"
+      },
+      "offer_type": {
+        "stringValue": "sale"
+      },
+      "price": {
+        "integerValue": "5000"
+      },
+      "property_type": {
+        "stringValue": "apartment"
+      },
+      "location_lat": {
+        "doubleValue": 29.973273749883127
+      },
+      "bathrooms": {
+        "integerValue": "2"
+      },
+      "status": {
+        "integerValue": "1"
+      },
+      "real_estate_key": {
+        "stringValue": "32d7zo"
+      },
+      "user_key": {
+        "stringValue": "682dri6b"
+      },
+      "_firestore_id": {
+        "stringValue": "32d7zo"
+      },
+      "created_at": {
+        "stringValue": "2026-05-14T05:44:47.646Z"
+      },
+      "area_sqm": {
+        "integerValue": "120"
+      }
+    },
+    "createTime": "2026-05-21T19:08:54.860975Z",
+    "updateTime": "2026-05-23T03:42:25.546091Z"
+  }
+]

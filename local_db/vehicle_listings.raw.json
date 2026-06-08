@@ -1,0 +1,179 @@
+[
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/vehicle_listings/g0hw8m",
+    "fields": {
+      "car_key": {
+        "stringValue": "g0hw8m"
+      },
+      "special_type_id": {
+        "stringValue": "special_needs"
+      },
+      "fuel_type_id": {
+        "stringValue": "benzine"
+      },
+      "transmission_type_id": {
+        "stringValue": "automatic"
+      },
+      "year": {
+        "integerValue": "2025"
+      },
+      "is_featured": {
+        "integerValue": "0"
+      },
+      "notes": {
+        "stringValue": "بسشسبشسبشسبشسب"
+      },
+      "brand_id": {
+        "stringValue": "volkswagen"
+      },
+      "_firestore_id": {
+        "stringValue": "g0hw8m"
+      },
+      "updated_at": {
+        "stringValue": "2026-05-23T03:41:19.050Z"
+      },
+      "body_type_id": {
+        "stringValue": "others"
+      },
+      "user_key": {
+        "stringValue": "682dri6b"
+      },
+      "condition_id": {
+        "stringValue": "new"
+      },
+      "price": {
+        "integerValue": "5000"
+      },
+      "status": {
+        "integerValue": "1"
+      },
+      "car_image_names": {
+        "stringValue": "1779507679122_1_g0hw8m.webp"
+      },
+      "created_at": {
+        "stringValue": "2026-05-22T07:21:26.165Z"
+      }
+    },
+    "createTime": "2026-05-22T07:21:26.288824Z",
+    "updateTime": "2026-05-23T03:41:19.098299Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/vehicle_listings/ljjos1",
+    "fields": {
+      "car_key": {
+        "stringValue": "ljjos1"
+      },
+      "special_type_id": {
+        "stringValue": "none"
+      },
+      "transmission_type_id": {
+        "stringValue": "automatic"
+      },
+      "fuel_type_id": {
+        "stringValue": "natural-gas"
+      },
+      "year": {
+        "integerValue": "1935"
+      },
+      "is_featured": {
+        "integerValue": "0"
+      },
+      "brand_id": {
+        "stringValue": "isuzu"
+      },
+      "notes": {
+        "stringValue": ""
+      },
+      "updated_at": {
+        "stringValue": "2026-05-13T21:53:21.813Z"
+      },
+      "id": {
+        "integerValue": "2"
+      },
+      "body_type_id": {
+        "stringValue": "others"
+      },
+      "user_key": {
+        "stringValue": "dl14v1k7"
+      },
+      "condition_id": {
+        "stringValue": "used"
+      },
+      "car_image_names": {
+        "stringValue": "car_dl14v1k7_ljjos1_1_1778709200944.webp"
+      },
+      "created_at": {
+        "stringValue": "2026-05-13T21:53:21.813Z"
+      },
+      "price": {
+        "integerValue": "50000"
+      },
+      "status": {
+        "integerValue": "1"
+      }
+    },
+    "createTime": "2026-05-21T19:08:55.013254Z",
+    "updateTime": "2026-05-21T19:08:55.013254Z"
+  },
+  {
+    "name": "projects/car-flat-pharm/databases/(default)/documents/vehicle_listings/nqp5is",
+    "fields": {
+      "transmission_type_id": {
+        "stringValue": "manual"
+      },
+      "fuel_type_id": {
+        "stringValue": "benzine"
+      },
+      "special_type_id": {
+        "stringValue": "none"
+      },
+      "car_key": {
+        "stringValue": "nqp5is"
+      },
+      "year": {
+        "integerValue": "2000"
+      },
+      "is_featured": {
+        "integerValue": "1"
+      },
+      "brand_id": {
+        "stringValue": "hyundai"
+      },
+      "notes": {
+        "stringValue": "الملاحظات الملاحظاتالملاحظاتالملاحظات"
+      },
+      "updated_at": {
+        "stringValue": "2026-05-23T03:43:54.006Z"
+      },
+      "_firestore_id": {
+        "stringValue": "nqp5is"
+      },
+      "body_type_id": {
+        "stringValue": "suv"
+      },
+      "id": {
+        "integerValue": "1"
+      },
+      "condition_id": {
+        "stringValue": "used"
+      },
+      "user_key": {
+        "stringValue": "682dri6b"
+      },
+      "created_at": {
+        "stringValue": "2026-05-11T09:46:27.477Z"
+      },
+      "car_image_names": {
+        "stringValue": "1779507833460_1_nqp5is.webp"
+      },
+      "status": {
+        "integerValue": "1"
+      },
+      "price": {
+        "integerValue": "200"
+      }
+    },
+    "createTime": "2026-05-21T19:08:54.938616Z",
+    "updateTime": "2026-05-23T03:43:54.052705Z"
+  }
+]
