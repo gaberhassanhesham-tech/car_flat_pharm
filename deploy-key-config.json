@@ -1,0 +1,24 @@
+{
+  "deployKey": {
+    "description": "Deploy Key Configuration for car_flat_pharm",
+    "publicKey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEbgeIwBk37xVXNFGYPXga9rUIuvJm+DdkDLNSwtjMqB hesham@DESKTOP-UA52GFH",
+    "privateKeyFile": ".git_deploy_key",
+    "publicKeyFile": ".git_deploy_key.pub",
+    "localSSHPath": "~/.ssh_local/car_flat_pharm",
+    "repository": "gaberhassanhesham-tech/car_flat_pharm",
+    "created": "2026-06-08",
+    "instructions": {
+      "step1": "أضف المفتاح العام إلى GitHub Deploy Keys",
+      "step1_url": "https://github.com/gaberhassanhesham-tech/car_flat_pharm/settings/keys",
+      "step2": "نسخ المفتاح الخاص إلى: ~/.ssh_local/car_flat_pharm/",
+      "step3": "تشغيل البرنامج النصي: setup-deploy-key.ps1 -Setup",
+      "step4": "اختبار الاتصال: setup-deploy-key.ps1 -Test"
+    },
+    "features": [
+      "✅ محفوظ محلياً في المشروع",
+      "✅ لا يحتاج إلى إعدادات Windows عامة",
+      "✅ يعمل على أي جهاز بعد نسخ المفاتيح",
+      "✅ آمن - المفاتيح الخاصة مخفية في .gitignore"
+    ]
+  }
+}
