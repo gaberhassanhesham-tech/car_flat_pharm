@@ -1,18 +1,18 @@
 [
   {
     "_docId": "for2dd",
-    "updated_at": "2026-04-18 04:05:34",
+    "hidden_catalog_products": "[\"101023\"]",
+    "hidden_sub_categories": "[]",
     "user_key": "for2dd",
     "hidden_main_categories": "[]",
-    "hidden_catalog_products": "[\"101023\"]",
-    "hidden_sub_categories": "[]"
+    "updated_at": "2026-04-18 04:05:34"
   },
   {
     "_docId": "q62uuv",
+    "hidden_sub_categories": "[]",
     "hidden_catalog_products": "[]",
     "updated_at": "2026-05-02 15:47:17",
-    "user_key": "q62uuv",
     "hidden_main_categories": "[1]",
-    "hidden_sub_categories": "[]"
+    "user_key": "q62uuv"
   }
 ]

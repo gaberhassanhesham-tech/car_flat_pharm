@@ -2,74 +2,158 @@
   {
     "name": "projects/car-flat-pharm/databases/(default)/documents/real_estate_listings/32d7zo",
     "fields": {
-      "sub_category_id": {
-        "stringValue": "1"
-      },
-      "image_names": {
-        "stringValue": "1779507745271_1_32d7zo.webp"
-      },
-      "rooms": {
-        "integerValue": "4"
-      },
-      "finishing_type": {
-        "stringValue": "super_lux"
-      },
-      "location_lng": {
-        "doubleValue": 32.521591186523445
-      },
-      "is_featured": {
-        "integerValue": "1"
-      },
-      "notes": {
-        "stringValue": "الملاحظاتيابيايبا بابيايب"
-      },
-      "id": {
-        "integerValue": "1"
-      },
-      "updated_at": {
-        "stringValue": "2026-05-23T03:42:25.519Z"
-      },
       "floor_level": {
         "integerValue": "1"
       },
       "address": {
         "stringValue": "العنوا بابااي ابيبا"
       },
-      "offer_type": {
-        "stringValue": "sale"
+      "bathrooms": {
+        "integerValue": "2"
       },
-      "price": {
-        "integerValue": "5000"
+      "read_model_version": {
+        "integerValue": "1"
+      },
+      "is_featured": {
+        "integerValue": "1"
+      },
+      "status": {
+        "integerValue": "1"
+      },
+      "ratings_summary": {
+        "mapValue": {
+          "fields": {
+            "average": {
+              "integerValue": "0"
+            },
+            "snapshot_version": {
+              "integerValue": "1"
+            },
+            "count": {
+              "integerValue": "0"
+            },
+            "snapshot_updated_at": {
+              "stringValue": "2026-06-08T14:44:16.818Z"
+            }
+          }
+        }
+      },
+      "updated_at": {
+        "stringValue": "2026-05-23T03:42:25.519Z"
       },
       "property_type": {
         "stringValue": "apartment"
       },
-      "location_lat": {
-        "doubleValue": 29.973273749883127
+      "read_model_updated_at": {
+        "stringValue": "2026-06-08T14:44:16.818Z"
       },
-      "bathrooms": {
-        "integerValue": "2"
+      "price": {
+        "integerValue": "5000"
       },
-      "status": {
+      "area_sqm": {
+        "integerValue": "120"
+      },
+      "offer_type": {
+        "stringValue": "sale"
+      },
+      "notes": {
+        "stringValue": "الملاحظاتيابيايبا بابيايب"
+      },
+      "listing_type": {
+        "stringValue": "real_estate"
+      },
+      "location_lng": {
+        "doubleValue": 32.521591186523445
+      },
+      "user_key": {
+        "stringValue": "682dri6b"
+      },
+      "sub_category_id": {
+        "stringValue": "1"
+      },
+      "image_names": {
+        "stringValue": "1779507745271_1_32d7zo.webp"
+      },
+      "id": {
         "integerValue": "1"
       },
       "real_estate_key": {
         "stringValue": "32d7zo"
       },
-      "user_key": {
-        "stringValue": "682dri6b"
-      },
       "_firestore_id": {
         "stringValue": "32d7zo"
+      },
+      "ratings_preview": {
+        "arrayValue": {}
+      },
+      "search_tokens": {
+        "stringValue": "32d7zo الملاحظاتيابيايبا بابيايب 682dri6b هشام جابر حسن اسم النشاط التحاري 201026546550"
+      },
+      "finishing_type": {
+        "stringValue": "super_lux"
+      },
+      "seller_snapshot": {
+        "mapValue": {
+          "fields": {
+            "business_name": {
+              "stringValue": "اسم النشاط التحاري"
+            },
+            "snapshot_version": {
+              "integerValue": "1"
+            },
+            "user_key": {
+              "stringValue": "682dri6b"
+            },
+            "user_image": {
+              "stringValue": "{\"avatar\":\"avatar_682dri6b_1771062596827.webp\",\"covers\":[\"cover_682dri6b_0_1776704098534.webp\",\"cover_682dri6b_1_1774024741897.webp\",\"cover_682dri6b_2_1774024742248.webp\"],\"cover\":\"cover_682dri6b_0_1776704098534.webp\"}"
+            },
+            "location": {
+              "stringValue": "29.98346433381288, 32.54219055175782"
+            },
+            "account_type": {
+              "integerValue": "32"
+            },
+            "links": {
+              "stringValue": "{}"
+            },
+            "phone": {
+              "stringValue": "+201026546550"
+            },
+            "fcm_token": {
+              "nullValue": null
+            },
+            "business_whatsapp": {
+              "stringValue": "+201026546550"
+            },
+            "username": {
+              "stringValue": "هشام جابر حسن"
+            },
+            "limitPackage": {
+              "integerValue": "0"
+            },
+            "platform": {
+              "nullValue": null
+            },
+            "snapshot_updated_at": {
+              "stringValue": "2026-06-08T14:44:16.818Z"
+            },
+            "settings": {
+              "stringValue": "{\"locations\":[{\"id\":\"loc_1776741667906_nyiihz\",\"coords\":\"29.98346433381288, 32.54219055175782\",\"address\":\"بجوار بتروجت\",\"is_primary\":true},{\"id\":\"loc_1779332791919_mwwatf\",\"coords\":\"29.97589181524426, 32.5492286682129\",\"address\":\"ابياي\",\"is_primary\":false}],\"isDelivered\":false,\"deliveryMode\":\"platform\",\"deliveryProviderKey\":\"pngukw\",\"limitPackage\":1000,\"discountPercent\":0,\"ratingEnabled\":true,\"ratingMode\":\"stars_comments\",\"productRatingEnabled\":true,\"productRatingMode\":\"stars_comments\"}"
+            }
+          }
+        }
       },
       "created_at": {
         "stringValue": "2026-05-14T05:44:47.646Z"
       },
-      "area_sqm": {
-        "integerValue": "120"
+      "rooms": {
+        "integerValue": "4"
+      },
+      "location_lat": {
+        "doubleValue": 29.973273749883127
       }
     },
     "createTime": "2026-05-21T19:08:54.860975Z",
-    "updateTime": "2026-05-23T03:42:25.546091Z"
+    "updateTime": "2026-06-08T14:44:17.374047Z"
   }
 ]

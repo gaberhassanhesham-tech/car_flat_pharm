@@ -2,11 +2,29 @@
   {
     "name": "projects/car-flat-pharm/databases/(default)/documents/vehicle_listings/g0hw8m",
     "fields": {
-      "car_key": {
-        "stringValue": "g0hw8m"
+      "listing_type": {
+        "stringValue": "car"
+      },
+      "is_featured": {
+        "integerValue": "0"
+      },
+      "brand_id": {
+        "stringValue": "volkswagen"
+      },
+      "notes": {
+        "stringValue": "بسشسبشسبشسبشسب"
+      },
+      "ratings_preview": {
+        "arrayValue": {}
+      },
+      "read_model_version": {
+        "integerValue": "1"
       },
       "special_type_id": {
         "stringValue": "special_needs"
+      },
+      "car_key": {
+        "stringValue": "g0hw8m"
       },
       "fuel_type_id": {
         "stringValue": "benzine"
@@ -14,17 +32,101 @@
       "transmission_type_id": {
         "stringValue": "automatic"
       },
+      "seller_snapshot": {
+        "mapValue": {
+          "fields": {
+            "links": {
+              "stringValue": "{}"
+            },
+            "location": {
+              "stringValue": "29.98346433381288, 32.54219055175782"
+            },
+            "limitPackage": {
+              "integerValue": "0"
+            },
+            "business_name": {
+              "stringValue": "اسم النشاط التحاري"
+            },
+            "username": {
+              "stringValue": "هشام جابر حسن"
+            },
+            "phone": {
+              "stringValue": "+201026546550"
+            },
+            "business_whatsapp": {
+              "stringValue": "+201026546550"
+            },
+            "settings": {
+              "stringValue": "{\"locations\":[{\"id\":\"loc_1776741667906_nyiihz\",\"coords\":\"29.98346433381288, 32.54219055175782\",\"address\":\"بجوار بتروجت\",\"is_primary\":true},{\"id\":\"loc_1779332791919_mwwatf\",\"coords\":\"29.97589181524426, 32.5492286682129\",\"address\":\"ابياي\",\"is_primary\":false}],\"isDelivered\":false,\"deliveryMode\":\"platform\",\"deliveryProviderKey\":\"pngukw\",\"limitPackage\":1000,\"discountPercent\":0,\"ratingEnabled\":true,\"ratingMode\":\"stars_comments\",\"productRatingEnabled\":true,\"productRatingMode\":\"stars_comments\"}"
+            },
+            "snapshot_version": {
+              "integerValue": "1"
+            },
+            "platform": {
+              "nullValue": null
+            },
+            "fcm_token": {
+              "nullValue": null
+            },
+            "user_image": {
+              "stringValue": "{\"avatar\":\"avatar_682dri6b_1771062596827.webp\",\"covers\":[\"cover_682dri6b_0_1776704098534.webp\",\"cover_682dri6b_1_1774024741897.webp\",\"cover_682dri6b_2_1774024742248.webp\"],\"cover\":\"cover_682dri6b_0_1776704098534.webp\"}"
+            },
+            "user_key": {
+              "stringValue": "682dri6b"
+            },
+            "snapshot_updated_at": {
+              "stringValue": "2026-06-08T14:44:16.358Z"
+            },
+            "account_type": {
+              "integerValue": "32"
+            }
+          }
+        }
+      },
       "year": {
         "integerValue": "2025"
       },
-      "is_featured": {
-        "integerValue": "0"
+      "read_model_updated_at": {
+        "stringValue": "2026-06-08T14:44:16.358Z"
       },
-      "notes": {
-        "stringValue": "بسشسبشسبشسبشسب"
+      "condition_id": {
+        "stringValue": "new"
       },
-      "brand_id": {
-        "stringValue": "volkswagen"
+      "user_key": {
+        "stringValue": "682dri6b"
+      },
+      "created_at": {
+        "stringValue": "2026-05-22T07:21:26.165Z"
+      },
+      "car_image_names": {
+        "stringValue": "1779507679122_1_g0hw8m.webp"
+      },
+      "price": {
+        "integerValue": "5000"
+      },
+      "status": {
+        "integerValue": "1"
+      },
+      "ratings_summary": {
+        "mapValue": {
+          "fields": {
+            "snapshot_updated_at": {
+              "stringValue": "2026-06-08T14:44:16.358Z"
+            },
+            "count": {
+              "integerValue": "0"
+            },
+            "average": {
+              "integerValue": "0"
+            },
+            "snapshot_version": {
+              "integerValue": "1"
+            }
+          }
+        }
+      },
+      "search_tokens": {
+        "stringValue": "g0hw8m بسشسبشسبشسبشسب 682dri6b هشام جابر حسن اسم النشاط التحاري 201026546550"
       },
       "_firestore_id": {
         "stringValue": "g0hw8m"
@@ -34,95 +136,266 @@
       },
       "body_type_id": {
         "stringValue": "others"
-      },
-      "user_key": {
-        "stringValue": "682dri6b"
-      },
-      "condition_id": {
-        "stringValue": "new"
-      },
-      "price": {
-        "integerValue": "5000"
-      },
-      "status": {
-        "integerValue": "1"
-      },
-      "car_image_names": {
-        "stringValue": "1779507679122_1_g0hw8m.webp"
-      },
-      "created_at": {
-        "stringValue": "2026-05-22T07:21:26.165Z"
       }
     },
     "createTime": "2026-05-22T07:21:26.288824Z",
-    "updateTime": "2026-05-23T03:41:19.098299Z"
+    "updateTime": "2026-06-08T14:44:16.969831Z"
   },
   {
     "name": "projects/car-flat-pharm/databases/(default)/documents/vehicle_listings/ljjos1",
     "fields": {
-      "car_key": {
-        "stringValue": "ljjos1"
-      },
-      "special_type_id": {
-        "stringValue": "none"
-      },
-      "transmission_type_id": {
-        "stringValue": "automatic"
-      },
-      "fuel_type_id": {
-        "stringValue": "natural-gas"
-      },
-      "year": {
-        "integerValue": "1935"
+      "notes": {
+        "stringValue": ""
       },
       "is_featured": {
         "integerValue": "0"
       },
-      "brand_id": {
-        "stringValue": "isuzu"
+      "special_type_id": {
+        "stringValue": "none"
       },
-      "notes": {
-        "stringValue": ""
+      "car_key": {
+        "stringValue": "ljjos1"
       },
-      "updated_at": {
-        "stringValue": "2026-05-13T21:53:21.813Z"
+      "fuel_type_id": {
+        "stringValue": "natural-gas"
       },
-      "id": {
-        "integerValue": "2"
+      "read_model_version": {
+        "integerValue": "1"
       },
-      "body_type_id": {
-        "stringValue": "others"
-      },
-      "user_key": {
-        "stringValue": "dl14v1k7"
-      },
-      "condition_id": {
-        "stringValue": "used"
-      },
-      "car_image_names": {
-        "stringValue": "car_dl14v1k7_ljjos1_1_1778709200944.webp"
+      "status": {
+        "integerValue": "1"
       },
       "created_at": {
         "stringValue": "2026-05-13T21:53:21.813Z"
       },
+      "car_image_names": {
+        "stringValue": "car_dl14v1k7_ljjos1_1_1778709200944.webp"
+      },
+      "condition_id": {
+        "stringValue": "used"
+      },
+      "body_type_id": {
+        "stringValue": "others"
+      },
+      "updated_at": {
+        "stringValue": "2026-05-13T21:53:21.813Z"
+      },
+      "ratings_summary": {
+        "mapValue": {
+          "fields": {
+            "snapshot_updated_at": {
+              "stringValue": "2026-06-08T14:44:16.515Z"
+            },
+            "count": {
+              "integerValue": "0"
+            },
+            "average": {
+              "integerValue": "0"
+            },
+            "snapshot_version": {
+              "integerValue": "1"
+            }
+          }
+        }
+      },
+      "brand_id": {
+        "stringValue": "isuzu"
+      },
+      "listing_type": {
+        "stringValue": "car"
+      },
+      "seller_snapshot": {
+        "mapValue": {
+          "fields": {
+            "snapshot_version": {
+              "integerValue": "1"
+            },
+            "user_key": {
+              "stringValue": "dl14v1k7"
+            },
+            "user_image": {
+              "mapValue": {
+                "fields": {
+                  "covers": {
+                    "arrayValue": {
+                      "values": [
+                        {
+                          "stringValue": "cover_dl14v1k7_0_1771703160766.webp"
+                        }
+                      ]
+                    }
+                  },
+                  "cover": {
+                    "stringValue": "cover_dl14v1k7_0_1771703160766.webp"
+                  },
+                  "avatar": {
+                    "stringValue": "avatar_dl14v1k7_1771368673556.webp"
+                  }
+                }
+              }
+            },
+            "fcm_token": {
+              "nullValue": null
+            },
+            "platform": {
+              "nullValue": null
+            },
+            "snapshot_updated_at": {
+              "stringValue": "2026-06-08T14:44:16.515Z"
+            },
+            "account_type": {
+              "integerValue": "33"
+            },
+            "location": {
+              "stringValue": "29.9637687, 32.5568947"
+            },
+            "links": {
+              "stringValue": "{\"x\":\"\",\"instagram\":\"https://www.instagram.com/hossam_darwish83?igsh=MXRvd3dkcGx2dmtzeA==\",\"telegram\":\"\",\"facebook\":\"https://www.facebook.com/share/1GPFd2hgDQ/\",\"website\":\"\",\"tiktok\":\"https://www.tiktok.com/@hossamdarwish1?_r=1&_t=ZS-941Wk2RDX08\"}"
+            },
+            "limitPackage": {
+              "integerValue": "0"
+            },
+            "business_whatsapp": {
+              "stringValue": "+201024182175"
+            },
+            "username": {
+              "stringValue": "Hossam darwish"
+            },
+            "phone": {
+              "stringValue": "+201024182175"
+            },
+            "business_name": {
+              "stringValue": "Suez Bazaar"
+            },
+            "settings": {
+              "stringValue": "{\"isDelivered\":0}"
+            }
+          }
+        }
+      },
+      "year": {
+        "integerValue": "1935"
+      },
+      "read_model_updated_at": {
+        "stringValue": "2026-06-08T14:44:16.515Z"
+      },
+      "transmission_type_id": {
+        "stringValue": "automatic"
+      },
+      "ratings_preview": {
+        "arrayValue": {}
+      },
       "price": {
         "integerValue": "50000"
       },
-      "status": {
-        "integerValue": "1"
+      "user_key": {
+        "stringValue": "dl14v1k7"
+      },
+      "id": {
+        "integerValue": "2"
+      },
+      "_firestore_id": {
+        "stringValue": "ljjos1"
+      },
+      "search_tokens": {
+        "stringValue": "ljjos1 dl14v1k7 hossam darwish suez bazaar 201024182175"
       }
     },
     "createTime": "2026-05-21T19:08:55.013254Z",
-    "updateTime": "2026-05-21T19:08:55.013254Z"
+    "updateTime": "2026-06-08T14:44:17.075266Z"
   },
   {
     "name": "projects/car-flat-pharm/databases/(default)/documents/vehicle_listings/nqp5is",
     "fields": {
+      "brand_id": {
+        "stringValue": "hyundai"
+      },
+      "listing_type": {
+        "stringValue": "car"
+      },
+      "seller_snapshot": {
+        "mapValue": {
+          "fields": {
+            "snapshot_updated_at": {
+              "stringValue": "2026-06-08T14:44:16.620Z"
+            },
+            "account_type": {
+              "integerValue": "32"
+            },
+            "snapshot_version": {
+              "integerValue": "1"
+            },
+            "user_image": {
+              "stringValue": "{\"avatar\":\"avatar_682dri6b_1771062596827.webp\",\"covers\":[\"cover_682dri6b_0_1776704098534.webp\",\"cover_682dri6b_1_1774024741897.webp\",\"cover_682dri6b_2_1774024742248.webp\"],\"cover\":\"cover_682dri6b_0_1776704098534.webp\"}"
+            },
+            "user_key": {
+              "stringValue": "682dri6b"
+            },
+            "fcm_token": {
+              "nullValue": null
+            },
+            "platform": {
+              "nullValue": null
+            },
+            "business_whatsapp": {
+              "stringValue": "+201026546550"
+            },
+            "username": {
+              "stringValue": "هشام جابر حسن"
+            },
+            "phone": {
+              "stringValue": "+201026546550"
+            },
+            "business_name": {
+              "stringValue": "اسم النشاط التحاري"
+            },
+            "settings": {
+              "stringValue": "{\"locations\":[{\"id\":\"loc_1776741667906_nyiihz\",\"coords\":\"29.98346433381288, 32.54219055175782\",\"address\":\"بجوار بتروجت\",\"is_primary\":true},{\"id\":\"loc_1779332791919_mwwatf\",\"coords\":\"29.97589181524426, 32.5492286682129\",\"address\":\"ابياي\",\"is_primary\":false}],\"isDelivered\":false,\"deliveryMode\":\"platform\",\"deliveryProviderKey\":\"pngukw\",\"limitPackage\":1000,\"discountPercent\":0,\"ratingEnabled\":true,\"ratingMode\":\"stars_comments\",\"productRatingEnabled\":true,\"productRatingMode\":\"stars_comments\"}"
+            },
+            "location": {
+              "stringValue": "29.98346433381288, 32.54219055175782"
+            },
+            "links": {
+              "stringValue": "{}"
+            },
+            "limitPackage": {
+              "integerValue": "0"
+            }
+          }
+        }
+      },
+      "read_model_updated_at": {
+        "stringValue": "2026-06-08T14:44:16.620Z"
+      },
+      "year": {
+        "integerValue": "2000"
+      },
       "transmission_type_id": {
         "stringValue": "manual"
       },
-      "fuel_type_id": {
-        "stringValue": "benzine"
+      "ratings_preview": {
+        "arrayValue": {}
+      },
+      "price": {
+        "integerValue": "200"
+      },
+      "user_key": {
+        "stringValue": "682dri6b"
+      },
+      "id": {
+        "integerValue": "1"
+      },
+      "search_tokens": {
+        "stringValue": "nqp5is الملاحظات الملاحظاتالملاحظاتالملاحظات 682dri6b هشام جابر حسن اسم النشاط التحاري 201026546550"
+      },
+      "_firestore_id": {
+        "stringValue": "nqp5is"
+      },
+      "notes": {
+        "stringValue": "الملاحظات الملاحظاتالملاحظاتالملاحظات"
+      },
+      "is_featured": {
+        "integerValue": "1"
       },
       "special_type_id": {
         "stringValue": "none"
@@ -130,50 +403,50 @@
       "car_key": {
         "stringValue": "nqp5is"
       },
-      "year": {
-        "integerValue": "2000"
+      "fuel_type_id": {
+        "stringValue": "benzine"
       },
-      "is_featured": {
+      "read_model_version": {
         "integerValue": "1"
-      },
-      "brand_id": {
-        "stringValue": "hyundai"
-      },
-      "notes": {
-        "stringValue": "الملاحظات الملاحظاتالملاحظاتالملاحظات"
-      },
-      "updated_at": {
-        "stringValue": "2026-05-23T03:43:54.006Z"
-      },
-      "_firestore_id": {
-        "stringValue": "nqp5is"
-      },
-      "body_type_id": {
-        "stringValue": "suv"
-      },
-      "id": {
-        "integerValue": "1"
-      },
-      "condition_id": {
-        "stringValue": "used"
-      },
-      "user_key": {
-        "stringValue": "682dri6b"
-      },
-      "created_at": {
-        "stringValue": "2026-05-11T09:46:27.477Z"
-      },
-      "car_image_names": {
-        "stringValue": "1779507833460_1_nqp5is.webp"
       },
       "status": {
         "integerValue": "1"
       },
-      "price": {
-        "integerValue": "200"
+      "car_image_names": {
+        "stringValue": "1779507833460_1_nqp5is.webp"
+      },
+      "created_at": {
+        "stringValue": "2026-05-11T09:46:27.477Z"
+      },
+      "condition_id": {
+        "stringValue": "used"
+      },
+      "body_type_id": {
+        "stringValue": "suv"
+      },
+      "updated_at": {
+        "stringValue": "2026-05-23T03:43:54.006Z"
+      },
+      "ratings_summary": {
+        "mapValue": {
+          "fields": {
+            "snapshot_updated_at": {
+              "stringValue": "2026-06-08T14:44:16.620Z"
+            },
+            "average": {
+              "integerValue": "0"
+            },
+            "snapshot_version": {
+              "integerValue": "1"
+            },
+            "count": {
+              "integerValue": "0"
+            }
+          }
+        }
       }
     },
     "createTime": "2026-05-21T19:08:54.938616Z",
-    "updateTime": "2026-05-23T03:43:54.052705Z"
+    "updateTime": "2026-06-08T14:44:17.179903Z"
   }
 ]
